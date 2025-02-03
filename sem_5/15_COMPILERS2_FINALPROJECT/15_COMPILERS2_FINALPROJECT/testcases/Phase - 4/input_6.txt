@@ -1,0 +1,9 @@
+main (int) (){
+    int a; float b;
+    point p = [0,0];
+    circle mycircle = {p,5.0};
+    point mypoint = [1,0];
+    check = mycircle.is_point(mypoint);
+    print(a);
+    return 0;
+}

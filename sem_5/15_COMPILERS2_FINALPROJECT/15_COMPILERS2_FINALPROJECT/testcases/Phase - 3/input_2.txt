@@ -1,0 +1,12 @@
+onboth (bool)(point pt, ellipse myellipse, circle mycircle){
+    bool ans = myellipse.is_point(pt) AND mycircle.is_point(pt);
+    return (ans);
+}
+
+main (int)(){
+    ellipse el = {[0,0],6,5};
+    circle cir = {[7,0],1};
+    bool isit = onboth([6,0],el,cir);
+    print(isit);
+    return 0;
+}

@@ -1,0 +1,11 @@
+calculate_eccentricity (void)(){
+    //int a =5;
+    /*This
+    is a multiline comment
+    */
+    ellipse e;
+    e = {[0,0],2,4};
+    int ecc;
+    check = mycircle.eccentricity();
+    print(ecc);
+}

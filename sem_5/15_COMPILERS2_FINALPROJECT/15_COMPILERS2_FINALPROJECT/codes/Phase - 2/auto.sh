@@ -1,0 +1,12 @@
+yacc -d yacc.y;
+lex lexer.l;
+gcc y.tab.c lex.yy.c -ll;
+mkdir Testcases/outputs;
+./a.out <Testcases/inputs/input_1.txt> Testcases/outputs/output_1.txt;
+./a.out <Testcases/inputs/input_2.txt> Testcases/outputs/output_2.txt;
+./a.out <Testcases/inputs/input_3.txt> Testcases/outputs/output_3.txt;
+./a.out <Testcases/inputs/input_4.txt> Testcases/outputs/output_4.txt;
+./a.out <Testcases/inputs/input_5.txt> Testcases/outputs/output_5.txt;
+./a.out <Testcases/inputs/input_6.txt> Testcases/outputs/output_6.txt;
+./a.out <Testcases/inputs/input_7.txt> Testcases/outputs/output_7.txt;
+./a.out <Testcases/inputs/input_8.txt> Testcases/outputs/output_8.txt;

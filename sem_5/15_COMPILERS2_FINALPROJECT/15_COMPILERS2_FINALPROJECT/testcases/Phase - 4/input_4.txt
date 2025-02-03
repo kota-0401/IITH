@@ -1,0 +1,22 @@
+function (int) (int a , int b, int c) {
+    int i, j = 0, k = 5;
+
+    while (i + j > k AND j - i < k) {
+    if (i + j > k) {
+        k += 2;
+    } 
+    elif (j - j < k) {
+        k *= 2;
+    } 
+    else {
+        k -= 1;
+    }
+    }
+    return a + b + c - ((k - i) * (k - j));
+}
+
+main (int) () {
+  int val = function(a,b,c);
+  print(val);
+  return 0;
+}

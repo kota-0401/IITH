@@ -1,0 +1,12 @@
+//while loop
+main (void)() {
+    while(mycircle.radius>0){
+        //comment
+        int a = 0;
+        a++;
+    }
+    /*Expression error*/
+    a + 5 = b + 10;
+    
+}
+int a; 

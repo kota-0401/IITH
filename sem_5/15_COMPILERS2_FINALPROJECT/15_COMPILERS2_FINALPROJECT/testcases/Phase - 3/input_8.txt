@@ -1,0 +1,10 @@
+calculate (void)() {
+   int a; int b;
+   if (a + b) {
+      int a;
+      /*error*/
+      int a = 5;
+   }
+}
+
+int a; 

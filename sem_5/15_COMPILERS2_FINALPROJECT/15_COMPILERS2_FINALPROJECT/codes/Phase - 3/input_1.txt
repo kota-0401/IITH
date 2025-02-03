@@ -1,0 +1,17 @@
+main (int)(){
+    bool check;
+    string str = "hello";
+    int tesnum = func_add(a,2);
+    for(int i=0;i<4;i++){
+        if(a>=3){
+            
+        }
+        else{
+            a*=-4;
+            c = 1 > 2 + 3 < 4;
+        }
+    }
+
+    int c = (a +b)*c;
+    int d = ((a AND b) OR (c + a));
+}

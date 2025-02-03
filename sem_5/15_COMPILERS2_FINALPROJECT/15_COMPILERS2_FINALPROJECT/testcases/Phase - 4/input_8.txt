@@ -1,0 +1,16 @@
+calculate (int)(int a) {
+   int a; int b;
+   if (a + b == 15) {
+      int a;
+      a = 5;
+   }
+   return a - b;
+}
+
+int a; 
+
+main (int) (){
+    int a = calculate(5);
+    print(a);
+    return 0;
+}

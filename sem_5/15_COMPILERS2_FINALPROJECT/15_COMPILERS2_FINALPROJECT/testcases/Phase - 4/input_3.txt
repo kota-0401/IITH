@@ -1,0 +1,23 @@
+func (void)(float a){
+    point p = [0,0];
+    int n = 5;
+    circle mycircle = {p,n};
+    line tangent_line;
+    point mypoint = [0,5];
+    if(mycircle.is_point(mypoint)) {
+        tangent_line = mycircle.tangent(mypoint);
+    }
+    elif(mycircle.is_point([a,4])) {
+        tangent_line = mycircle.tangent(mypoint);
+    }
+    else {
+        print("point does not lies on circle!!");
+    }
+    return;
+}
+
+main(int) () {
+   float f = 3.0;
+   func(f);
+   return 0;
+}
