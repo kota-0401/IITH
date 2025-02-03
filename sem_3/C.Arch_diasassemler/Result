@@ -1,0 +1,6 @@
+addi x3, x3, 0
+ld x4, x3, 0
+ld x5, x3, 8
+addi x3, x3, 16
+addi x10, x0, 0
+add x12, x3, x0
