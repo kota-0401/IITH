@@ -1,0 +1,30 @@
+🔹 Barrier Divergence Detection
+Iterate through all program points.
+
+For each local variable:
+
+Mark 0/1 based on tid dependency.
+
+Identify all __syncthreads() calls.
+
+If inside a conditional branch and condition depends on tid → flag as divergence.
+
+Data Race Detection
+Iterate through all program points.
+
+For each local variable:
+
+Track the set of tids accessing it.
+
+On each memory access:
+
+If set of tids at that point > 1 → flag as data race.
+
+Redundant Barrier Detection
+Identify all __syncthreads() calls.
+
+At each call:
+
+If set of tids at that point == 1 → flag as redundant barrier.
+Temporarily skip the barrier and analyze forward.
+If no future variable has tid access set size > 1 → flag as redundant.
